@@ -2,6 +2,28 @@
   text-align: center;
 }
 
+.App > p{
+  font-size: 20px;
+  color: gold;
+  background-color: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.App > h1:hover{
+  text-decoration: none;
+  color: #ffffff;
+  
+  background: linear-gradient(to right, rgb(61, 34, 61), black);
+}
+
+.App > p:hover{
+  text-decoration: none;
+  color: #ffffff;
+
+  background: linear-gradient(to right, rgb(235, 98, 120), red);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
